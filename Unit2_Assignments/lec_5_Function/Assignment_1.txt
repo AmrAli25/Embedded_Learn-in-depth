@@ -1,1 +1,109 @@
 This file contain the solution for lecture 5 
+
+
+################### Example 1 ####################################
+
+#include "stdio.h"
+
+void Is_prime(int a, int b)
+{
+	printf("prime numbers between %d and %d are: ", a, b);
+	int prime = 1;
+	for(int i = a; i <= b; i++)
+	{
+		prime = 1;
+		for(int j = 2; j <= 10; j++)
+		{
+			if(i % j == 0)
+			{
+				prime = 0;
+				break;
+			}
+		}
+		if(prime == 1)
+			printf("%d ", i);
+	}
+}
+
+int main(int argc, char** argv){
+
+	int a,b;
+	printf("Enter two numbers (intervals): ");
+	fflush(stdout);
+	scanf("%d %d",&a, &b);
+	Is_prime(a,b);
+	return 0;
+}
+
+######################### Example 2 ###################################
+#include "stdio.h"
+
+int Factorial(int a)
+{
+	if(a != 1)
+		return a*Factorial(a-1);
+
+}
+
+int main(int argc, char** argv){
+
+	int a;
+	printf("Enter an positive number: ");
+	fflush(stdout);
+	scanf("%d",&a);
+	printf("Factorial of %d = %d",a , Factorial(a));
+	return 0;
+}
+
+
+##################### Example 3 ###############################
+
+#include "stdio.h"
+
+void reverse()
+{
+	char c;
+	scanf("%c",&c);
+	if(c != '\n')
+	{
+		reverse();
+		printf("%c", c);
+
+	}
+}
+
+int main(int argc, char** argv){
+
+
+	printf("Enter an sentence: ");
+	fflush(stdout);
+	reverse();
+	return 0;
+}
+
+
+##################### Example 4 ################################
+
+#include "stdio.h"
+
+int Power_Of(int base, int power)
+{
+	if(power !=0)
+		return base*Power_Of(base,power-1);
+}
+
+int main(int argc, char** argv){
+
+	int a,b;
+	printf("Enter base number: ");
+	fflush(stdout);
+	scanf("%d",&a);
+	printf("Enter power number (positive num):");
+	fflush(stdout);
+	scanf("%d",&b);
+	printf("%d^%d = %d",a,b,Power_Of(a,b));
+	return 0;
+}
+
+
+
