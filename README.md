@@ -1,2 +1,20 @@
-# Embedded_Learn-in-depth
-it contain all the projects and assignment in the diploma
+# Mastering_Embedded_Systems_with_K.S
+
+##### This Repository will contain all labs and assignments associated with "Mastering Embedded Systems" Diploma with Eng./ Keroles Shenouda
+
+## Progress
+### First Term: ![](https://geps.dev/progress/48)
+- ##### Unit 1: Diploma Prerequisites ![](https://geps.dev/progress/100)
+- ##### Unit 2: C Programming ![](https://geps.dev/progress/100)
+- ##### Unit 3:Embedded C ![](https://geps.dev/progress/40)
+- ##### Unit4: System Architecting ![](https://geps.dev/progress/0)
+- ##### Unit5: First Term Projects ![](https://geps.dev/progress/0)
+-----
+### Second Term: ![](https://geps.dev/progress/0)
+- ##### Unit 6: Micro-Controller Architecture ![](https://geps.dev/progress/0)
+- ##### Unit 7: MCU Essential Preipherals ![](https://geps.dev/progress/0)
+- ##### Unit 8: MCU Interfacing ![](https://geps.dev/progress/0)
+- ##### Unit 9: MCU Timers/ADC ![](https://geps.dev/progress/0)
+- ##### Unit 10: SW Engineering ![](https://geps.dev/progress/0)
+-----
+
