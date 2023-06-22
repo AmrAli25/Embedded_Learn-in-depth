@@ -1,0 +1,14 @@
+the Symbols for the Excutable file Baremetal_SW_M4
+
+20000400 B _E_bss
+20000000 T _E_DATA
+0000012c T _E_text
+20000000 B _S_bss
+20000000 T _S_DATA
+0000009c T Default_Handler
+00000000 T g_p_fn_vectors
+0000009c W H_Fault_Handler
+00000010 T main
+0000009c W NMI_Handler
+000000a8 T Reset_Handler
+20000000 b stack_top
