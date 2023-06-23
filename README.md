@@ -3,11 +3,11 @@
 ##### This Repository will contain all labs and assignments associated with "Mastering Embedded Systems" Diploma with Eng./ Keroles Shenouda
 
 ## Progress
-### First Term: ![](https://geps.dev/progress/55)
+### First Term: ![](https://geps.dev/progress/80)
 - ##### Unit 1: Diploma Prerequisites ![](https://geps.dev/progress/100)
 - ##### Unit 2: C Programming ![](https://geps.dev/progress/100)
-- ##### Unit 3:Embedded C ![](https://geps.dev/progress/75)
-- ##### Unit4: System Architecting ![](https://geps.dev/progress/0)
+- ##### Unit 3:Embedded C ![](https://geps.dev/progress/100)
+- ##### Unit4: System Architecting ![](https://geps.dev/progress/100)
 - ##### Unit5: First Term Projects ![](https://geps.dev/progress/0)
 -----
 ### Second Term: ![](https://geps.dev/progress/0)
