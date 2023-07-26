@@ -1,0 +1,188 @@
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<SYMBOL TABLE: for pressure_detection.elf>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+08000000 l    d  .text  00000000 .text
+20000000 l    d  .data  00000000 .data
+20000004 l    d  .bss   00000000 .bss
+00000000 l    d  .debug_info    00000000 .debug_info
+00000000 l    d  .debug_abbrev  00000000 .debug_abbrev
+00000000 l    d  .debug_loc     00000000 .debug_loc
+00000000 l    d  .debug_aranges 00000000 .debug_aranges
+00000000 l    d  .debug_line    00000000 .debug_line
+00000000 l    d  .debug_str     00000000 .debug_str
+00000000 l    d  .comment       00000000 .comment
+00000000 l    d  .ARM.attributes        00000000 .ARM.attributes
+00000000 l    d  .debug_frame   00000000 .debug_frame
+00000000 l    df *ABS*  00000000 startup.c
+00000000 l    df *ABS*  00000000 PrSensor.c
+00000000 l    df *ABS*  00000000 alarm_actuator.c
+00000000 l    df *ABS*  00000000 alarm_monitor.c
+00000000 l    df *ABS*  00000000 algo.c
+00000000 l    df *ABS*  00000000 driver.c
+00000000 l    df *ABS*  00000000 main.c
+08000108 g     F .text  00000028 ST_LedOff
+0800033c  w    F .text  0000000c Bus_Fault_handler
+08000090 g     F .text  0000001c StartAlarm
+08000288 g     F .text  00000050 GPIO_INITIALIZATION
+20000000 g     O .data  00000001 threshold
+0800033c  w    F .text  0000000c NMI_Handler
+20000005 g     O .bss   00000001 pVal
+20001018 g     O .bss   00000001 AM_state_id
+0800001c g     F .text  0000001c PrSensor_init
+0800033c  w    F .text  0000000c H_Fault_Handler
+080001d4 g     F .text  00000040 ST_HighPreDetected
+080001a8 g     F .text  0000002c setPressureVal
+20000006 g       .bss   00000000 _E_bss
+20001020 g     O .bss   00000001 alg_state_id
+2000101c g     O .bss   00000004 AM_state
+0800033c  w    F .text  0000000c MM_Fault_Handler
+08000348 g     F .text  00000084 Reset_Handler
+20000004 g     O .bss   00000001 pressure
+20001008 g       .bss   00000000 _stack_top
+20000001 g       .data  00000000 _E_DATA
+080000ac g     F .text  0000001c StopAlarm
+08000184 g     F .text  00000024 ST_AlarmOn
+08000234 g     F .text  00000018 getPressureVal
+0800033c g     F .text  0000000c Default_Handler
+20000004 g       .bss   00000000 _S_bss
+08000074 g     F .text  0000001c Alarm_init
+080000c8 g     F .text  00000040 ST_LedOn
+0800024c g     F .text  0000003c Set_Alarm_actuator
+08000308 g     F .text  00000034 main
+20001024 g     O .bss   00000004 alg_state
+08000038 g     F .text  0000003c ST_PrS_Reading
+20000000 g       .data  00000000 _S_DATA
+20001010 g     O .bss   00000001 Led_state_id
+080002d8 g     F .text  00000030 setup
+08000214 g     F .text  00000020 Delay
+20001014 g     O .bss   00000004 Led_state
+20001008 g     O .bss   00000004 PrS_state
+08000130 g     F .text  00000020 ST_Waiting
+08000150 g     F .text  0000001c HighPressure
+2000100c g     O .bss   00000001 PrS_state_id
+080003cc g       .text  00000000 _E_text
+08000000 g     O .text  0000001c vectors
+0800016c g     F .text  00000018 ST_AlarmOff
+0800033c  w    F .text  0000000c Usage_Fault_handler
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<SYMBOL TABLE: for PrSensor.o>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+00000000 l    df *ABS*  00000000 PrSensor.c
+00000000 l    d  .text  00000000 .text
+00000000 l    d  .data  00000000 .data
+00000000 l    d  .bss   00000000 .bss
+00000000 l    d  .debug_info    00000000 .debug_info
+00000000 l    d  .debug_abbrev  00000000 .debug_abbrev
+00000000 l    d  .debug_loc     00000000 .debug_loc
+00000000 l    d  .debug_aranges 00000000 .debug_aranges
+00000000 l    d  .debug_line    00000000 .debug_line
+00000000 l    d  .debug_str     00000000 .debug_str
+00000000 l    d  .debug_frame   00000000 .debug_frame
+00000000 l    d  .comment       00000000 .comment
+00000000 l    d  .ARM.attributes        00000000 .ARM.attributes
+00000001       O *COM*  00000001 PrS_state_id
+00000000 g     O .bss   00000001 pressure
+00000004       O *COM*  00000004 PrS_state
+00000000 g     F .text  0000001c PrSensor_init
+0000001c g     F .text  0000003c ST_PrS_Reading
+00000000         *UND*  00000000 getPressureVal
+00000000         *UND*  00000000 setPressureVal
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<SYMBOL TABLE: for algo.o>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+00000000 l    df *ABS*  00000000 algo.c
+00000000 l    d  .text  00000000 .text
+00000000 l    d  .data  00000000 .data
+00000000 l    d  .bss   00000000 .bss
+00000000 l    d  .debug_info    00000000 .debug_info
+00000000 l    d  .debug_abbrev  00000000 .debug_abbrev
+00000000 l    d  .debug_loc     00000000 .debug_loc
+00000000 l    d  .debug_aranges 00000000 .debug_aranges
+00000000 l    d  .debug_line    00000000 .debug_line
+00000000 l    d  .debug_str     00000000 .debug_str
+00000000 l    d  .debug_frame   00000000 .debug_frame
+00000000 l    d  .comment       00000000 .comment
+00000000 l    d  .ARM.attributes        00000000 .ARM.attributes
+00000001       O *COM*  00000001 alg_state_id
+00000000 g     O .bss   00000001 pVal
+00000000 g     O .data  00000001 threshold
+00000004       O *COM*  00000004 alg_state
+00000000 g     F .text  0000002c setPressureVal
+0000002c g     F .text  00000040 ST_HighPreDetected
+00000000         *UND*  00000000 HighPressure
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<SYMBOL TABLE: for alarm_monitor.o>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+00000000 l    df *ABS*  00000000 alarm_monitor.c
+00000000 l    d  .text  00000000 .text
+00000000 l    d  .data  00000000 .data
+00000000 l    d  .bss   00000000 .bss
+00000000 l    d  .debug_info    00000000 .debug_info
+00000000 l    d  .debug_abbrev  00000000 .debug_abbrev
+00000000 l    d  .debug_loc     00000000 .debug_loc
+00000000 l    d  .debug_aranges 00000000 .debug_aranges
+00000000 l    d  .debug_line    00000000 .debug_line
+00000000 l    d  .debug_str     00000000 .debug_str
+00000000 l    d  .debug_frame   00000000 .debug_frame
+00000000 l    d  .comment       00000000 .comment
+00000000 l    d  .ARM.attributes        00000000 .ARM.attributes
+00000001       O *COM*  00000001 AM_state_id
+00000004       O *COM*  00000004 AM_state
+00000000 g     F .text  0000001c HighPressure
+00000034 g     F .text  00000024 ST_AlarmOn
+0000001c g     F .text  00000018 ST_AlarmOff
+00000000         *UND*  00000000 StopAlarm
+00000000         *UND*  00000000 StartAlarm
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<SYMBOL TABLE: for alarm_actuator.o>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+00000000 l    df *ABS*  00000000 alarm_actuator.c
+00000000 l    d  .text  00000000 .text
+00000000 l    d  .data  00000000 .data
+00000000 l    d  .bss   00000000 .bss
+00000000 l    d  .debug_info    00000000 .debug_info
+00000000 l    d  .debug_abbrev  00000000 .debug_abbrev
+00000000 l    d  .debug_loc     00000000 .debug_loc
+00000000 l    d  .debug_aranges 00000000 .debug_aranges
+00000000 l    d  .debug_line    00000000 .debug_line
+00000000 l    d  .debug_str     00000000 .debug_str
+00000000 l    d  .debug_frame   00000000 .debug_frame
+00000000 l    d  .comment       00000000 .comment
+00000000 l    d  .ARM.attributes        00000000 .ARM.attributes
+00000001       O *COM*  00000001 Led_state_id
+00000004       O *COM*  00000004 Led_state
+00000000 g     F .text  0000001c Alarm_init
+000000bc g     F .text  00000020 ST_Waiting
+0000001c g     F .text  0000001c StartAlarm
+00000054 g     F .text  00000040 ST_LedOn
+00000038 g     F .text  0000001c StopAlarm
+00000094 g     F .text  00000028 ST_LedOff
+00000000         *UND*  00000000 Set_Alarm_actuator
+00000000         *UND*  00000000 Delay
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<SYMBOL TABLE: for main.o>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+00000000 l    df *ABS*  00000000 main.c
+00000000 l    d  .text  00000000 .text
+00000000 l    d  .data  00000000 .data
+00000000 l    d  .bss   00000000 .bss
+00000000 l    d  .debug_info    00000000 .debug_info
+00000000 l    d  .debug_abbrev  00000000 .debug_abbrev
+00000000 l    d  .debug_loc     00000000 .debug_loc
+00000000 l    d  .debug_aranges 00000000 .debug_aranges
+00000000 l    d  .debug_line    00000000 .debug_line
+00000000 l    d  .debug_str     00000000 .debug_str
+00000000 l    d  .debug_frame   00000000 .debug_frame
+00000000 l    d  .comment       00000000 .comment
+00000000 l    d  .ARM.attributes        00000000 .ARM.attributes
+00000001       O *COM*  00000001 AM_state_id
+00000001       O *COM*  00000001 Led_state_id
+00000001       O *COM*  00000001 alg_state_id
+00000001       O *COM*  00000001 PrS_state_id
+00000000 g     F .text  00000030 setup
+00000000         *UND*  00000000 GPIO_INITIALIZATION
+00000000         *UND*  00000000 PrSensor_init
+00000000         *UND*  00000000 Alarm_init
+00000000         *UND*  00000000 alg_state
+00000000         *UND*  00000000 ST_HighPreDetected
+00000000         *UND*  00000000 AM_state
+00000000         *UND*  00000000 ST_AlarmOff
+00000030 g     F .text  00000034 main
+00000000         *UND*  00000000 PrS_state
+00000000         *UND*  00000000 Led_state
+
