@@ -1,4 +1,0 @@
-1 Amr Ali 3.2 1 2 3 4 5
-1 Ahmed shokry 3.1 21 32 42 52 11
-3 Mohammed Amr 4 24 14 54 44 34
-4 Noha Ahmed 3.5 74 5 2 1 4
