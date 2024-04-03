@@ -8,7 +8,7 @@
 - ##### Unit 2: C Programming ![](https://geps.dev/progress/100)
 - ##### Unit 3:Embedded C ![](https://geps.dev/progress/100)
 - ##### Unit4: System Architecting ![](https://geps.dev/progress/100)
-- ##### Unit5: First Term Projects ![](https://geps.dev/progress/0)
+- ##### Unit5: First Term Projects ![](https://geps.dev/progress/100)
 -----
 ### Second Term: ![](https://geps.dev/progress/0)
 - ##### Unit 6: Micro-Controller Architecture ![](https://geps.dev/progress/0)
